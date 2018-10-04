@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/HomeNav"
+        android:enabled="true"
+        android:icon="@android:drawable/radiobutton_off_background"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/PatternsNav"
+        android:enabled="true"
+        android:icon="@android:drawable/radiobutton_off_background"
+        android:title="Patterns"
+        app:showAsAction="always"
+        app:labelVisibilityMode="labeled" />
+    <item
+        android:id="@+id/ScenariosNav"
+        android:enabled="true"
+        android:icon="@android:drawable/radiobutton_off_background"
+        android:title="Scenarios"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/InfoNav"
+        android:enabled="true"
+        android:icon="@android:drawable/radiobutton_off_background"
+        android:title="Info"
+        app:showAsAction="always" />
+</menu>
